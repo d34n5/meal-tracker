@@ -1,13 +1,28 @@
 
-
-h1 {
-  color: fuchsia;
+body {
+  background-image: url(http://img.wallpaperfolder.com/f/615EB5C7182A/apple-iphone-red-fresh.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: white;
 }
 
-/*.expensive {
-  background-color: green;
-}*/
+h1 {
+  color: blue;
+  font-size: 3.5em;
+}
 
-.cheap {
-  color: red;
+h2 {
+  color: ivory;
+}
+
+input {
+  color: black;
+}
+
+button {
+  background-color: blue;
+}
+
+#mealSelector {
+  font-size: 5em;
 }
