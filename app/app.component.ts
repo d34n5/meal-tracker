@@ -33,7 +33,6 @@ export class AppComponent {
     this.selectedMeal = clickedMeal;
   }
   finishedEditing() {
-    this.selectedMeal.setCalorieColor();
     this.selectedMeal = null;
   }
   addMeal(newMealFromChild: Meal) {

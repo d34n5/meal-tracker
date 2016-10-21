@@ -20,7 +20,7 @@ import { Meal } from './meal.model';
       addClicked(newName.value, newDetails.value, newCalorie.value);
       newName.value='';
       newDetails.value='';
-      newPrice.value='';
+      newCalorie.value='';
     ">Add New Meal</button>
   </div>
   `
@@ -28,8 +28,8 @@ import { Meal } from './meal.model';
 
 export class NewMealComponent {
   @Output() newMealSender = new EventEmitter();
-  addClicked(name: string, details: string, calorie: number)eal{
+  addClicked(name: string, details: string, calorie: number){
     var newMealToAdd: Meal = new Meal(name, details, calorie);
-    this.newSender.emit(newMealToAdd);
+    this.newMealSender.emit(newMealToAdd);
   }
 }

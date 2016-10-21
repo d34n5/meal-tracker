@@ -7,14 +7,13 @@ import { Meal } from './meal.model';
     <select (change)="onCalorieChange($event.target.value)">
       <option value="all" selected="selected">Show All Meals</option>
       <option value="low">Show Low Calorie Meals</option>
-      <option value="medium">Show Medium Calorie Meals </option>
       <option value="high">Show High Calorie Meals </option>
     </select>
     <div *ngFor ="let currentMeal of childMealList | sortCalorie:calorieRange">
       <div class ="mealDiv">
         <h3> Name:  {{ currentMeal.name }}
         <br> Details:  {{ currentMeal.details}}</h3>
-        <h4 [style.color]="currentMeal.calorieColor">Calorie Count: {{ currentMeal.calorie }}</h4>
+        <h4>Calorie Count: {{ currentMeal.calorie }}</h4>
       </div>
     </div>
     `
