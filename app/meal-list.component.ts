@@ -11,9 +11,12 @@ import { Meal } from './meal.model';
     </select>
     <div *ngFor ="let currentMeal of childMealList | sortCalorie:calorieRange">
       <div class ="mealDiv">
-        <h3> Name:  {{ currentMeal.name }}
-        <br> Details:  {{ currentMeal.details}}</h3>
-        <h4>Calorie Count: {{ currentMeal.calorie }}</h4>
+        <p>
+          <h3> Name:  {{ currentMeal.name }} </h3>
+          <br>
+          <h4> Details:  {{ currentMeal.details}}</h4>
+          <h3> Calorie Count: {{ currentMeal.calorie }}</h3>
+        </p>
       </div>
     </div>
     `
