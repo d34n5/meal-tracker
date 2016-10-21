@@ -2,12 +2,10 @@ import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent }   from './app.component';
 import { FormsModule }   from '@angular/forms';
-import { KegListComponent } from './keg-list.component';
-import { EditKegComponent } from './edit-keg.component';
-import { NewKegComponent } from './new-keg.component';
-import { PintsRemainingPipe } from './pintsRemaining.pipe';
-import { SortPricePipe } from './sort-price.pipe';
-
+import { MealListComponent } from './meal-list.component';
+import { EditMealComponent } from './edit-meal.component';
+import { NewMealComponent } from './new-meal.component';
+import { SortCaloriePipe } from './sort-calorie.pipe';
 
 @NgModule({
   imports: [
@@ -16,11 +14,10 @@ import { SortPricePipe } from './sort-price.pipe';
   ],
   declarations: [
     AppComponent,
-    KegListComponent,
-    EditKegComponent,
-    NewKegComponent,
-    PintsRemainingPipe,
-    SortPricePipe
+    MealListComponent,
+    EditMealComponent,
+    NewMealComponent,
+    SortCaloriePipe
    ],
   bootstrap:    [ AppComponent ],
 })

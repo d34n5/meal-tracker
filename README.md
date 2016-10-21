@@ -14,10 +14,10 @@ Single Page simple meal tracker app allows users to enter their meals into a for
 3. Install the Bower Project Manager in the Command Line: $ bower install
 
 4. Install global packages if not already present on your machine (gulp, bower, typescript, and/or sass):
-$ npm install gulp -g
-$ npm install bower -g
-$ npm install typescript -g
-$ gem install sass
+..* $ npm install gulp -g
+..* $ npm install bower -g
+..* $ npm install typescript -g
+..* $ gem install sass
 
 5. Run the 'build' gulp.task in the Command Line: $ gulp build
 
