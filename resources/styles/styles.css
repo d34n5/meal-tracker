@@ -29,6 +29,7 @@ h4 {
 
 input {
   color: black;
+  max-width: 300px;
 }
 
 button {

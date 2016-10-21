@@ -8,15 +8,15 @@ import { Meal } from './meal.model';
     <h2>New Meal</h2>
     <div>
       <label>Enter Meal Name:</label>
-      <input #newName>
+      <input #newName class="form-control">
     </div>
     <div>
       <label>Enter Meal Details:</label>
-      <input #newDetails>
+      <input #newDetails class="form-control">
     </div>
     <div>
       <label>Enter Calorie Count:</label>
-      <input #newCalorie>
+      <input #newCalorie class="form-control">
       <br>
       <button (click)="
         addClicked(newName.value, newDetails.value, newCalorie.value);
