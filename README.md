@@ -3,8 +3,11 @@
 
 ## JavaScript Week 2 Independent Project by Dean Scelza @ Epicodus, 10-21-16 ##
 
-## Description & Technologies Used
+## Description
 Single Page simple meal tracker app allows users to enter their meals into a form, view a list of their meals and sort by calories.
+
+## Technologies Used
+Angular2, JavaScript, HTML, CSS, npm, gulp & bower
 
 ## Installation & Set-Up
 1. Clone repository from GitHub (https://github.com/d34n5/meal-tracker) to your local machine via your terminal: $ git clone https://github.com/d34n5/meal-tracker

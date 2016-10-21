@@ -26,7 +26,7 @@ export class AppComponent {
       new Meal("Chicken Asada Burrito", "Extra Cilantro & Pico", 700),
       new Meal("Granola & Almond Milk", "Crunchier than crunchy", 350),
       new Meal("Lorem Ipsum Sandwich", "From the Psuedo-content Cart", 420),
-      new Meal("BBQ Coder over Rice", "Strangely, he didn't put up a fight", 868)
+      new Meal("Navratan Koorma with Rice", "And lots of it", 850)
   ];
   selectedMeal: Meal = null;
   showDetails(clickedMeal: Meal) {

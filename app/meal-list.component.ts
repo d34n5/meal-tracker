@@ -16,7 +16,7 @@ import { Meal } from './meal.model';
           <h4> Name:  {{ currentMeal.name }} </h4>
           <h4> Details:  {{ currentMeal.details}}</h4>
           <h4> Calorie Count: {{ currentMeal.calorie }}</h4>
-           <button (click)="editButtonHasBeenClicked(currentMeal)">Edit</button>
+           <button (click)="editButtonHasBeenClicked(currentMeal)">Edit this Meal</button>
           <br>
           <p>
           </p>

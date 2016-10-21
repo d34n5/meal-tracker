@@ -26,14 +26,23 @@ h4 {
   font-size: 1.25em;
 }
 
+
 input {
   color: black;
 }
 
 button {
-  background-color: blue;
+  background-color: purple;
+  margin: 3px;
 }
 
 #mealSelector {
   margin-left: 10%;
+}
+
+
+#editMeal #newMeal {
+  color: white;
+  text-shadow: .5px 1px black;
+  font-size: 1em;
 }
