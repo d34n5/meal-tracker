@@ -1,4 +1,5 @@
 
+
 # Angular2 Meal Tracker App #
 
 ## JavaScript Week 2 Independent Project by Dean Scelza @ Epicodus, 10-21-16 ##
@@ -12,21 +13,17 @@ Angular2, JavaScript, HTML, CSS, npm, gulp & bower
 ## Installation & Set-Up
 1. Clone repository from GitHub (https://github.com/d34n5/meal-tracker) via your terminal: $ git clone https://github.com/d34n5/meal-tracker
 
-2. Navigate to the root directory of the project folder and install Node's Project Manager in the Command Line: $ npm install
-
-3. Install the Bower Project Manager: $ bower install
-
-4. Install global packages if not already present on your machine (gulp, bower, typescript, and/or sass):
+2. Install global packages if not already present on your machine (gulp, bower, typescript, and/or sass):
   * $ npm install gulp -g
   * $ npm install bower -g
   * $ npm install typescript -g
   * $ gem install sass
 
-5. Run the 'build' gulp.task in the Command Line: $ gulp build
+3. Run the 'build' gulp.task in the Command Line: $ gulp build
 
-6. Run the 'serve' gulp.task: $ gulp serve
+4. Run the 'serve' gulp.task: $ gulp serve
 
-7. When page loads, simply enter meals into the form - then view, edit and/or sort.
+5. When page loads, simply enter meals into the form - then view, edit and/or sort.
 
 
 ## Known Bugs
